@@ -1,0 +1,5 @@
+#!/bin/bash
+ssh $1 /sbin/reboot&
+sleep 5
+kill %1
+exit 0
